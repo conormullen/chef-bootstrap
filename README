@@ -1,0 +1,1 @@
+Bootstrap script for installing Chef-solo on EC2 instance. Taken mostly from here: https://github.com/grempe/chef-solo-bootstrap
