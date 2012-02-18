@@ -1,3 +1,3 @@
-%w["git" "subversion"].each do |pkg|
+[ "git", "subversion" ].each do |pkg|
 	package pkg
 end
