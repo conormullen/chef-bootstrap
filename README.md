@@ -1,12 +1,18 @@
+Description
+=============
+
+Installs chef solo on a EC2 instance and downloads sample cookbooks.
+
 Bootstrap script for installing Chef-solo on EC2 instance.
 
 Usage:
+==============
 
 ./chef-install youtec2keyfile yourec2login
 
 this will create the following directory structure:
 
-/home/ec2-user/chef/chef-bootstrap
+* /home/ec2-user/chef/chef-bootstrap
 
 The chef-bootstrap directory contains sample recipes.
 
