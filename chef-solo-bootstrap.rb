@@ -31,6 +31,8 @@ cmd "ln -sfv /usr/bin/gem1.8 /usr/bin/gem"
 
 cmd "gem install rdoc chef ohai --no-ri --no-rdoc --source http://gems.opscode.com --source http://gems.rubyforge.org"
 
+cmd "mkdir -p /home/ec2-user/chef/"
+
 puts
 puts "It seems to have worked!"
 puts "------------------------"
